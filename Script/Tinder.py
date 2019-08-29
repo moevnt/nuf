@@ -5,7 +5,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 url = 'https://tinder.com'
 
-driver = webdriver.Chrome('/home/evan/PycharmProjects/chromedriver')
+driver = webdriver.Chrome(r"\Users\evanm\PycharmProjects\chromedriver")
 driver.get(url)
 
 time.sleep(30)
